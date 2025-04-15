@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMC Calculator
+
+    </title>
+</head>
+<body>
+
+    <form onsubmit="return calcular(event)">
+        <div id="formText">
+            <label for="">Digite seu peso: </label>
+            <input type="text" id="peso" name="peso" placeholder='Exemplo: "75"'>
+            <label for="">Digite sua altura: </label>
+            <input type="text" id="altura" name="altura" placeholder='Exemplo: "1.70"'>
+        </div>
+        <div id="formSubmit">
+            <input type="submit" value="Calcular">
+        </div>
+
+    </form>
+
+    <div id="resultado">
+        <p>O resultado aparecerá aqui!</p>
+    </div>
+    
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <div class="rodape">
+            <p>Copyright &copy; - por Luan Machado</p>
+            <p><a href="https://www.linkedin.com/in/luanmachadof/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/mcdcwb/" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
